@@ -1,0 +1,59 @@
+#!/bin/sh
+if [ ! -d .ssh ]; then 
+    mkdir /home/ec2-user/.ssh
+    chmod 700 /home/ec2-user/.ssh
+fi
+
+echo "-----BEGIN OPENSSH PRIVATE KEY-----
+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
+AgMEBQ==
+-----END OPENSSH PRIVATE KEY-----" > /home/ec2-user/.ssh/id_rsa
+
+chmod 600 /home/ec2-user/.ssh/id_rsa
+chown -R ec2-user: /home/ec2-user/.ssh
+
+sudo yum update -y
+
+sudo yum install docker git -y
+#sudo yum install gcc openssl-devel bzip2-devel -y
+sudo yum install python2 wget -y
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python2 get-pip.py
+
+sudo ln -sf /usr/bin/python2.7 /etc/alternatives/python
+sudo ln -sf /etc/alternatives/python /usr/bin/python
