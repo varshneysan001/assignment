@@ -1,8 +1,8 @@
 variable aws_access_key {
-    default = "AKIAWOONHQDGTG6BXC5F"
+    default = "ToFill"
 }
 variable aws_secret_key {
-    default = "nWc9/2jTorwnKLkNS1dZkbEW7XCNzTnoifgfV1l4"
+    default = "ToFill"
 }
 variable "vpc_cidr_block" {
     default = "172.20.0.0/16"
